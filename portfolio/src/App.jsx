@@ -1,14 +1,28 @@
 import { useState } from 'react'
-
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Header from './components/Header'
+// import About from './components/About';
+// import Projects from './components/Projects';
+// import Skills from './components/Skills';
+// import Contact from './components/Contact';
+import Footer from './components/Footer';
 import './index.css'
 
-function App() {
+const App = () => {
   return (
-    
-    <div className='h-screen flex bg-gray-950 justify-center place-items-center'>
-    <h1 className='text-9xl font-bold text-emerald-500 font-spaceGrotesk'>Welcome.</h1>
-     </div>
-  )
-}
+    <Router>
+      <div className="flex flex-col min-h-screen bg-slate-800">
+        <Header />
+        <main className="flex-grow">
+          {/* <About /> */}
+          {/* <Projects /> */}
+          {/* <Skills /> */}
+          {/* <Contact /> */}
+        </main>
+        <Footer />
+      </div>
+    </Router>
+  );
+};
 
-export default App
+export default App;
