@@ -5,7 +5,7 @@ const projects = [
     id: 1,
     name: "Spellbinder",
     description: "Spellbinder is an web-app to view and collect Magic the Gathering cards. It allows you to easily search and add cards to your collection.",
-    image: "src/assets/Spellbinder.jpg" ,
+    image: "./assets/Spellbinder.png" ,
     repoUrl: "https://github.com/vader9911/Spellbinder",
   },
 ]
