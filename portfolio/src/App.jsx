@@ -8,6 +8,7 @@ import Projects from './components/Projects';
 import Footer from './components/Footer';
 import './index.css'
 
+
 const App = () => {
   return (
     <Router>

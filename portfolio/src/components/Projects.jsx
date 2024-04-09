@@ -1,11 +1,12 @@
 import React from 'react';
 
+
 const projects = [
   {
     id: 1,
     name: "Spellbinder",
     description: "Spellbinder is an web-app to view and collect Magic the Gathering cards. It allows you to easily search and add cards to your collection.",
-    image: "./assets/Spellbinder.png" ,
+    image: "https://github.com/vader9911/Spellbinder/blob/main/public/images/readmepic.png?raw=true" ,
     repoUrl: "https://github.com/vader9911/Spellbinder",
   },
 ]
